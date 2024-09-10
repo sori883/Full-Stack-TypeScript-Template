@@ -70,8 +70,8 @@ importers:
         specifier: 'catalog:'
         version: 5.5.4
       wrangler:
-        specifier: ^3.75.0
-        version: 3.75.0(@cloudflare/workers-types@4.20240909.0)
+        specifier: ^3.76.0
+        version: 3.76.0(@cloudflare/workers-types@4.20240909.0)
 
   tooling/eslint:
     dependencies:
@@ -92,7 +92,7 @@ importers:
         version: 7.35.2(eslint@9.9.1(jiti@1.21.6))
       eslint-plugin-react-hooks:
         specifier: rc
-        version: 5.1.0-rc-e210d081-20240909(eslint@9.9.1(jiti@1.21.6))
+        version: 5.1.0-rc-3dfd5d9e-20240910(eslint@9.9.1(jiti@1.21.6))
       typescript-eslint:
         specifier: ^8.5.0
         version: 8.5.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
@@ -1037,8 +1037,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-react-hooks@5.1.0-rc-e210d081-20240909:
-    resolution: {integrity: sha512-YnTRqGm+qTzhTSBxRwlnbKVG0W69vO5T32j7ygYs/1IyX4dVyqSA4qs5joIjsE6iAPcUAeMZj5pvMxRrnzpQUA==}
+  eslint-plugin-react-hooks@5.1.0-rc-3dfd5d9e-20240910:
+    resolution: {integrity: sha512-bB2mPM2fKSgb+rrHtksYrawCribuatIBq8t1gZTyEwNbrWTDFc1H0r7FWZVgqOvR9n5hwOxF16KVXkgFwvGQMw==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -1485,8 +1485,8 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
 
-  miniflare@3.20240821.1:
-    resolution: {integrity: sha512-81qdiryDG7VXzZuoa0EwhkaIYYrn7+StRIrd/2i7SPqPUNICUBjbhFFKqTnvE1+fqIPPB6l8ShKFaFvmnZOASg==}
+  miniflare@3.20240821.2:
+    resolution: {integrity: sha512-mgWekp437zD5l2Rz/in/OGBAISNB3rWr69DhR5Iq3WoToUNeAnkbW/CWPBpJiw5WHzZfHHOT+sVjSksAGRJitg==}
     engines: {node: '>=16.13'}
     hasBin: true
 
@@ -2110,8 +2110,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@3.75.0:
-    resolution: {integrity: sha512-CitNuNj0O1z6qbonUXmpUbxeWpU3nx28Kc4ZT33tMdeooQssb063Ie7+ZCdfS3kPhRHSwGdtOV22xFYytHON8w==}
+  wrangler@3.76.0:
+    resolution: {integrity: sha512-HQWJm5/RUHVr+Vg2KM55pjDSbcEh5WxR6Swcpz1jQ5o+ytoLoj31IHMsl4cJFfM/JtzjBXSpRbS00lDnGfFc2A==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -3207,7 +3207,7 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.0
 
-  eslint-plugin-react-hooks@5.1.0-rc-e210d081-20240909(eslint@9.9.1(jiti@1.21.6)):
+  eslint-plugin-react-hooks@5.1.0-rc-3dfd5d9e-20240910(eslint@9.9.1(jiti@1.21.6)):
     dependencies:
       eslint: 9.9.1(jiti@1.21.6)
 
@@ -3673,7 +3673,7 @@ snapshots:
 
   mime@3.0.0: {}
 
-  miniflare@3.20240821.1:
+  miniflare@3.20240821.2:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       acorn: 8.12.1
@@ -4327,7 +4327,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20240821.1
       '@cloudflare/workerd-windows-64': 1.20240821.1
 
-  wrangler@3.75.0(@cloudflare/workers-types@4.20240909.0):
+  wrangler@3.76.0(@cloudflare/workers-types@4.20240909.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@cloudflare/workers-shared': 0.4.1
@@ -4337,7 +4337,7 @@ snapshots:
       chokidar: 3.6.0
       date-fns: 3.6.0
       esbuild: 0.17.19
-      miniflare: 3.20240821.1
+      miniflare: 3.20240821.2
       nanoid: 3.3.7
       path-to-regexp: 6.2.2
       resolve: 1.22.8
