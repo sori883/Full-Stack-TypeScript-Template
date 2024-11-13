@@ -14,7 +14,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "hono": "^4.6.9"
+    "hono": "^4.6.10"
   },
   "devDependencies": {
     "@acme/eslint-config": "workspace:^",
