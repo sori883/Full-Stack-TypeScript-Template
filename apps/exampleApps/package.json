@@ -25,7 +25,7 @@
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:",
-    "wrangler": "^3.102.0"
+    "wrangler": "^3.103.1"
   },
   "prettier": "@acme/prettier-config"
 }
