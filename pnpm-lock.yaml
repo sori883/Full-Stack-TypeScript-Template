@@ -42,8 +42,8 @@ importers:
   apps/exampleApps:
     dependencies:
       hono:
-        specifier: ^4.7.7
-        version: 4.7.7
+        specifier: ^4.7.8
+        version: 4.7.8
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:^
@@ -1460,8 +1460,8 @@ packages:
   hermes-parser@0.25.1:
     resolution: {integrity: sha512-6pEjquH3rqaI6cYAXYPcz9MS4rY6R4ngRgrgfDshRptUZIc3lw0MCIJIGDj9++mfySOuPTHB4nrSW99BCvOPIA==}
 
-  hono@4.7.7:
-    resolution: {integrity: sha512-2PCpQRbN87Crty8/L/7akZN3UyZIAopSoRxCwRbJgUuV1+MHNFHzYFxZTg4v/03cXUm+jce/qa2VSBZpKBm3Qw==}
+  hono@4.7.8:
+    resolution: {integrity: sha512-PCibtFdxa7/Ldud9yddl1G81GjYaeMYYTq4ywSaNsYbB1Lug4mwtOMJf2WXykL0pntYwmpRJeOI3NmoDgD+Jxw==}
     engines: {node: '>=16.9.0'}
 
   ignore@5.3.2:
@@ -4009,7 +4009,7 @@ snapshots:
     dependencies:
       hermes-estree: 0.25.1
 
-  hono@4.7.7: {}
+  hono@4.7.8: {}
 
   ignore@5.3.2: {}
 
