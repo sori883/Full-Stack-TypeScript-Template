@@ -21,7 +21,7 @@
     "@acme/prettier-config": "workspace:^",
     "@acme/tailwind-config": "workspace:^",
     "@acme/tsconfig": "workspace:^",
-    "@cloudflare/workers-types": "^4.20250528.0",
+    "@cloudflare/workers-types": "^4.20250529.0",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:",
